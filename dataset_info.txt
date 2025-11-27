@@ -1,0 +1,6 @@
+The dataset for this competition (both train and test) was generated from Cirrhosis Patient Survival Prediction dataset.
+
+
+train.csv - the training dataset; Status is the categorical target; C (censored) indicates the patient was alive at N_Days, CL indicates the patient was alive at N_Days due to liver a transplant, and D indicates the patient was deceased at N_Days.
+test.csv - the test dataset; your objective is to predict the probability of each of the three Status values, e.g., Status_C, Status_CL, Status_D.
+sample_submission.csv - a sample submission file in the correct format
